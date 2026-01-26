@@ -1,54 +1,120 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.0.1 Safari/605.1.15" version="28.1.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15" version="29.3.2">
   <diagram name="第 1 页" id="wwbQbtm_1SgLInfIJogv">
-    <mxGraphModel dx="916" dy="257" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1323" dy="361" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
-        <mxCell id="1" style="" parent="0" />
-        <mxCell id="WzaP2teKXpVmRS6GvhDk-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="525" width="343" height="77" as="geometry" />
+        <mxCell id="1" parent="0" style="" value="集成架构" visible="0" />
+        <mxCell id="WzaP2teKXpVmRS6GvhDk-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="77" width="343" x="160" y="525" as="geometry" />
         </mxCell>
-        <mxCell id="WzaP2teKXpVmRS6GvhDk-17" value="云助理应用" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
-          <mxGeometry x="165" y="528" width="69" height="30" as="geometry" />
+        <mxCell id="WzaP2teKXpVmRS6GvhDk-17" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" value="云助理应用" vertex="1">
+          <mxGeometry height="30" width="69" x="165" y="528" as="geometry" />
         </mxCell>
-        <mxCell id="WzaP2teKXpVmRS6GvhDk-18" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;应用主体&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="258" y="552" width="69" height="30" as="geometry" />
+        <mxCell id="WzaP2teKXpVmRS6GvhDk-18" parent="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;应用主体&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="69" x="258" y="552" as="geometry" />
         </mxCell>
-        <mxCell id="WzaP2teKXpVmRS6GvhDk-7" value="" style="whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="368" y="477" width="412" height="294" as="geometry" />
+        <mxCell id="WzaP2teKXpVmRS6GvhDk-7" parent="1" style="whiteSpace=wrap;html=1;dashed=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="294" width="412" x="368" y="477" as="geometry" />
         </mxCell>
-        <mxCell id="WzaP2teKXpVmRS6GvhDk-1" value="aTrust客户端" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;swimlaneLine=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="498" width="200" height="252" as="geometry" />
+        <mxCell id="WzaP2teKXpVmRS6GvhDk-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;swimlaneLine=1;" value="aTrust客户端" vertex="1">
+          <mxGeometry height="252" width="200" x="550" y="498" as="geometry" />
         </mxCell>
-        <mxCell id="WzaP2teKXpVmRS6GvhDk-3" value="核心服务模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WzaP2teKXpVmRS6GvhDk-1">
-          <mxGeometry x="36" y="48" width="122" height="40" as="geometry" />
+        <mxCell id="WzaP2teKXpVmRS6GvhDk-3" parent="WzaP2teKXpVmRS6GvhDk-1" style="rounded=0;whiteSpace=wrap;html=1;" value="核心服务模块" vertex="1">
+          <mxGeometry height="40" width="122" x="36" y="48" as="geometry" />
         </mxCell>
-        <mxCell id="WzaP2teKXpVmRS6GvhDk-5" value="托盘UI" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="WzaP2teKXpVmRS6GvhDk-1">
-          <mxGeometry x="36" y="120" width="122" height="40" as="geometry" />
+        <mxCell id="WzaP2teKXpVmRS6GvhDk-5" parent="WzaP2teKXpVmRS6GvhDk-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="托盘UI" vertex="1">
+          <mxGeometry height="40" width="122" x="36" y="120" as="geometry" />
         </mxCell>
-        <mxCell id="WzaP2teKXpVmRS6GvhDk-6" value="沙箱模块" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="WzaP2teKXpVmRS6GvhDk-1">
-          <mxGeometry x="36" y="192" width="122" height="40" as="geometry" />
+        <mxCell id="WzaP2teKXpVmRS6GvhDk-6" parent="WzaP2teKXpVmRS6GvhDk-1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="沙箱模块" vertex="1">
+          <mxGeometry height="40" width="122" x="36" y="192" as="geometry" />
         </mxCell>
-        <mxCell id="WzaP2teKXpVmRS6GvhDk-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WzaP2teKXpVmRS6GvhDk-19" target="WzaP2teKXpVmRS6GvhDk-3">
+        <mxCell id="WzaP2teKXpVmRS6GvhDk-20" edge="1" parent="1" source="WzaP2teKXpVmRS6GvhDk-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WzaP2teKXpVmRS6GvhDk-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WzaP2teKXpVmRS6GvhDk-19" value="aTrust SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="384" y="544" width="94" height="44" as="geometry" />
+        <mxCell id="WzaP2teKXpVmRS6GvhDk-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="aTrust SDK" vertex="1">
+          <mxGeometry height="44" width="94" x="384" y="544" as="geometry" />
         </mxCell>
-        <mxCell id="WzaP2teKXpVmRS6GvhDk-21" value="零信任控制中心" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="893" y="524" width="94" height="44" as="geometry" />
+        <mxCell id="WzaP2teKXpVmRS6GvhDk-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="零信任控制中心" vertex="1">
+          <mxGeometry height="44" width="94" x="893" y="524" as="geometry" />
         </mxCell>
-        <mxCell id="WzaP2teKXpVmRS6GvhDk-22" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="793" y="563" width="87" height="39" as="geometry" />
+        <mxCell id="WzaP2teKXpVmRS6GvhDk-22" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;dashed=1;" value="Internet" vertex="1">
+          <mxGeometry height="39" width="87" x="793" y="563" as="geometry" />
         </mxCell>
-        <mxCell id="WzaP2teKXpVmRS6GvhDk-30" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WzaP2teKXpVmRS6GvhDk-3" target="WzaP2teKXpVmRS6GvhDk-21">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="854" y="517" as="sourcePoint" />
-            <mxPoint x="904" y="467" as="targetPoint" />
+        <mxCell id="WzaP2teKXpVmRS6GvhDk-30" edge="1" parent="1" source="WzaP2teKXpVmRS6GvhDk-3" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="WzaP2teKXpVmRS6GvhDk-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="850" y="569" />
               <mxPoint x="783" y="524" />
             </Array>
+            <mxPoint x="854" y="517" as="sourcePoint" />
+            <mxPoint x="904" y="467" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-1" parent="0" value="放代理劫持方案" />
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-10" parent="u2DXHeB9m0uJ9aMat_PE-1" style="whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;align=center;fontSize=15;fontStyle=1" value="终端" vertex="1">
+          <mxGeometry height="321" width="527" x="125" y="677" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-2" parent="u2DXHeB9m0uJ9aMat_PE-1" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;swimlaneLine=1;" value="aTrust客户端" vertex="1">
+          <mxGeometry height="252" width="386" x="156" y="712" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-3" parent="u2DXHeB9m0uJ9aMat_PE-2" style="rounded=0;whiteSpace=wrap;html=1;" value="核心服务模块" vertex="1">
+          <mxGeometry height="40" width="90" x="191" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-4" parent="u2DXHeB9m0uJ9aMat_PE-2" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="托盘UI" vertex="1">
+          <mxGeometry height="40" width="90" x="191" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-5" parent="u2DXHeB9m0uJ9aMat_PE-2" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" value="沙箱模块" vertex="1">
+          <mxGeometry height="40" width="90" x="191" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-6" parent="u2DXHeB9m0uJ9aMat_PE-2" style="rounded=0;whiteSpace=wrap;html=1;" value="虚拟网卡通信模块" vertex="1">
+          <mxGeometry height="186" width="74" x="301" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-7" parent="u2DXHeB9m0uJ9aMat_PE-2" style="rounded=0;whiteSpace=wrap;html=1;" value="云助理APP" vertex="1">
+          <mxGeometry height="186" width="74" x="18" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-8" parent="u2DXHeB9m0uJ9aMat_PE-1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="" vertex="1">
+          <mxGeometry height="56" width="125" x="873" y="827" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-9" edge="1" parent="u2DXHeB9m0uJ9aMat_PE-1" source="u2DXHeB9m0uJ9aMat_PE-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;strokeWidth=1;dashed=1;shape=flexArrow;width=6.153846153846154;endSize=8.58974358974359;endWidth=9.651545036160421;" target="u2DXHeB9m0uJ9aMat_PE-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="773" y="853" />
+              <mxPoint x="773" y="853" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-11" parent="u2DXHeB9m0uJ9aMat_PE-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" value="流量代理劫持组件" vertex="1">
+          <mxGeometry height="31" width="75" x="568" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-13" parent="u2DXHeB9m0uJ9aMat_PE-1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fontStyle=1;fontSize=10;fillColor=#f8cecc;strokeColor=#b85450;" value="流量代理劫持组件" vertex="1">
+          <mxGeometry height="31" width="75" x="257" y="955" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-15" parent="u2DXHeB9m0uJ9aMat_PE-1" style="text;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;convertToSvg=0;" value="零信任代理网关" vertex="1">
+          <mxGeometry height="26" width="102" x="894" y="898" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-16" parent="u2DXHeB9m0uJ9aMat_PE-1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.drop;rotation=-180;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="595.5" y="832" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-17" parent="u2DXHeB9m0uJ9aMat_PE-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontStyle=1;fontSize=10;" value="劫持点2" vertex="1">
+          <mxGeometry height="24" width="54" x="579.5" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-25" edge="1" parent="u2DXHeB9m0uJ9aMat_PE-1" source="u2DXHeB9m0uJ9aMat_PE-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u2DXHeB9m0uJ9aMat_PE-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-18" parent="u2DXHeB9m0uJ9aMat_PE-1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.drop;rotation=-180;fillColor=#f8cecc;strokeColor=#b85450;" value="" vertex="1">
+          <mxGeometry height="30" width="20" x="287" y="915" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-19" parent="u2DXHeB9m0uJ9aMat_PE-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;autosize=1;resizable=0;fontStyle=1;fontSize=10;" value="劫持点1" vertex="1">
+          <mxGeometry height="24" width="54" x="271" y="887" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-23" parent="u2DXHeB9m0uJ9aMat_PE-1" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=0;dy=0;size=5.17;boundedLbl=1;rotation=-180;dashed=1;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="253" width="578" x="111" y="1033" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-26" edge="1" parent="u2DXHeB9m0uJ9aMat_PE-1" source="u2DXHeB9m0uJ9aMat_PE-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u2DXHeB9m0uJ9aMat_PE-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2DXHeB9m0uJ9aMat_PE-27" parent="u2DXHeB9m0uJ9aMat_PE-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=top;rounded=0;horizontal=1;" value="&lt;div style=&quot;line-height: 150%;&quot;&gt;目前对于流量或者数据劫持的风险场景中，普遍存在的是上图中的两个劫持点，在针对云助理防护方案中，有下面两种方式：&lt;/div&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;1. 只通过沙箱方案：&lt;/div&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;&amp;nbsp; （1）针对劫持点1的防护，通过在沙箱的策略配置中只允许运行云助理即可实现防护效果【如果是是外部的劫持软件，则无法“看到”沙箱内存储的数据】。&lt;/div&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;&amp;nbsp; （2）针对劫持点2，要依靠云助理APP业务自身的流量加密，单独沙箱无法解决这个阶段的数据加密。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 150%;&quot;&gt;&lt;br&gt;&lt;div&gt;2. 配合代理网关方案：&lt;/div&gt;&lt;div&gt;&amp;nbsp; （1）针对劫持点1的防护，如上面的沙箱方案。&lt;/div&gt;&lt;div&gt;&amp;nbsp; （2）针对劫持点2的防护，在网络通讯中心，云助理APP与服务端的通信，均是通过虚拟网卡与代理网关之间的SSL 隧道进行通讯，在劫持点2看到的数据也是加密数据。&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="536" x="132" y="1042" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
