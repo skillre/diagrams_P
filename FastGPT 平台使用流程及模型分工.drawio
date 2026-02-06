@@ -1,9 +1,141 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15" version="29.3.6">
-  <diagram name="第 1 页" id="WKWElvvQUEPTZPjjlLbZ">
-    <mxGraphModel>
+  <diagram name="Page-1" id="WKWElvvQUEPTZPjjlLbZ">
+    <mxGraphModel dx="1426" dy="824" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1;fontColor=#333333;" value="FastGPT 平台使用流程及模型分工" vertex="1">
+          <mxGeometry height="40" width="500" x="150" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-2" parent="1" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1;" value="������ 用户" vertex="1">
+          <mxGeometry height="50" width="80" x="360" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" value="输入问题/需求" vertex="1">
+          <mxGeometry height="40" width="120" x="340" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-4" edge="1" parent="1" source="G0K9mnQiI90F2IADvhLJ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#666666;strokeWidth=2;" target="G0K9mnQiI90F2IADvhLJ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;dashed=1;" value="" vertex="1">
+          <mxGeometry height="350" width="720" x="40" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-6" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#333333;" value="������ FastGPT 平台" vertex="1">
+          <mxGeometry height="30" width="150" x="55" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="280" width="300" x="60" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-8" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#6a1b9a;" value="������ 小模型 (Embedding / Rerank)" vertex="1">
+          <mxGeometry height="30" width="280" x="70" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=center;" value="������ 文本向量化&#xa;(Embedding)" vertex="1">
+          <mxGeometry height="50" width="120" x="80" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=center;" value="������ 知识库检索&#xa;(相似度匹配)" vertex="1">
+          <mxGeometry height="50" width="120" x="220" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;align=center;" value="������ 结果重排序&#xa;(Rerank)" vertex="1">
+          <mxGeometry height="50" width="120" x="150" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-12" parent="1" style="text;html=1;strokeColor=none;fillColor=#f3e5f5;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=11;fontColor=#4a148c;" value="✅ 特点：速度快、成本低&#xa;✅ 作用：处理检索、匹配任务&#xa;✅ 场景：知识库构建和查询" vertex="1">
+          <mxGeometry height="70" width="260" x="80" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="280" width="300" x="440" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-14" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#2e7d32;" value="������ 大模型 (LLM)" vertex="1">
+          <mxGeometry height="30" width="180" x="500" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center;" value="������ 理解问题&#xa;(意图识别)" vertex="1">
+          <mxGeometry height="50" width="120" x="460" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center;" value="������ 推理分析&#xa;(逻辑思考)" vertex="1">
+          <mxGeometry height="50" width="120" x="600" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;align=center;" value="✍️ 生成回答&#xa;(自然语言)" vertex="1">
+          <mxGeometry height="50" width="120" x="530" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-18" parent="1" style="text;html=1;strokeColor=none;fillColor=#e8f5e9;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fontSize=11;fontColor=#1b5e20;" value="✅ 特点：能力强、理解深&#xa;✅ 作用：理解、推理、生成&#xa;✅ 场景：对话、问答、创作" vertex="1">
+          <mxGeometry height="70" width="260" x="460" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-19" edge="1" parent="1" source="G0K9mnQiI90F2IADvhLJ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#666666;strokeWidth=2;entryX=0.5;entryY=0;exitX=0.5;exitY=1;" target="G0K9mnQiI90F2IADvhLJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-20" edge="1" parent="1" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeColor=#ff6f00;strokeWidth=3;fontSize=12;fontStyle=1;fontColor=#ff6f00;" value="协作">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="370" y="390" as="sourcePoint" />
+            <mxPoint x="430" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1;" value="������ 智能回答" vertex="1">
+          <mxGeometry height="40" width="120" x="340" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-22" edge="1" parent="1" source="G0K9mnQiI90F2IADvhLJ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;strokeColor=#666666;strokeWidth=2;" target="G0K9mnQiI90F2IADvhLJ-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fce4ec;strokeColor=#c2185b;strokeWidth=1;dashed=1;" value="" vertex="1">
+          <mxGeometry height="100" width="720" x="40" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-24" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;fontColor=#c2185b;" value="������ 典型工作流程" vertex="1">
+          <mxGeometry height="25" width="150" x="55" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="① 用户提问" vertex="1">
+          <mxGeometry height="40" width="80" x="55" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" value="② 小模型&#xa;向量化问题" vertex="1">
+          <mxGeometry height="40" width="80" x="155" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" value="③ 小模型&#xa;检索知识库" vertex="1">
+          <mxGeometry height="40" width="80" x="255" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" value="④ 小模型&#xa;重排序结果" vertex="1">
+          <mxGeometry height="40" width="80" x="355" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="⑤ 大模型&#xa;理解+推理" vertex="1">
+          <mxGeometry height="40" width="80" x="455" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" value="⑥ 大模型&#xa;生成回答" vertex="1">
+          <mxGeometry height="40" width="80" x="555" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" value="⑦ 返回用户" vertex="1">
+          <mxGeometry height="40" width="80" x="655" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-32" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#666666;strokeWidth=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="700" as="sourcePoint" />
+            <mxPoint x="155" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-33" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#666666;strokeWidth=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="235" y="700" as="sourcePoint" />
+            <mxPoint x="255" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#666666;strokeWidth=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="700" as="sourcePoint" />
+            <mxPoint x="355" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#666666;strokeWidth=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="435" y="700" as="sourcePoint" />
+            <mxPoint x="455" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-36" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#666666;strokeWidth=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="700" as="sourcePoint" />
+            <mxPoint x="555" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0K9mnQiI90F2IADvhLJ-37" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#666666;strokeWidth=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="700" as="sourcePoint" />
+            <mxPoint x="655" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
